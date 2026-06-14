@@ -1,0 +1,17 @@
+git init                          # yengi repository yaratish
+git add .                         # barcha fayllarni qoshish
+git commit -m "first commit"      # save qilsh
+git remote add origin https://github.com/username/???.git  # githubga ulash
+git push -u origin main           # githubga yuvorsh
+
+.env — parollar bor kornishi keremas
+__pycache__ —  keraksiz python oziniki
+venv/ —  kotta hajmli hamma ozi yaratadi
+
+
+python -m venv venv              # virtual env yaratmoq
+venv\Scripts\activate            # windows
+
+pip install psycopg2-binary python-dotenv requests
+pip freeze > requirements.txt    # save
+pip install -r requirements.txt  # install qlish
